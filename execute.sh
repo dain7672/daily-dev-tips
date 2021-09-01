@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# process file
+# process file for fortune
 cp assets/dev-tips.txt ~/dev-tips.fortune
 vim -c ":%s/\n/\r%\r/g" -c ":wq"  ~/dev-tips.fortune
 strfile ~/dev-tips.fortune ~/dev-tips.fortune.dat >/dev/null 2>&1
@@ -15,6 +15,7 @@ else
   brew install fortune >/dev/null 2>&1
 fi
 
+# register fortune commands to bash_profile
 if grep -Fxq "fortune ~/dev-tips.fortune" ~/.bash_profile
 then
   echo "dev-tips is already installed..."
