@@ -3,7 +3,7 @@
 # process file
 cp assets/dev-tips.txt ~/dev-tips.fortune
 vim -c ":%s/\n/\r%\r/g" -c ":wq"  ~/dev-tips.fortune
-strfile ~/dev-tips.fortune ~/dev-tips.fortune.dat >nul 2>&1
+strfile ~/dev-tips.fortune ~/dev-tips.fortune.dat >/dev/null 2>&1
 
 echo "file processing complete..."
 
@@ -12,7 +12,7 @@ if brew ls --versions fortune > /dev/null; then
   echo "fortune is already installed..."
 else
   echo "brew installing fortune..."
-  brew install fortune >nul 2>&1
+  brew install fortune >/dev/null 2>&1
 fi
 
 if grep -Fxq "fortune ~/dev-tips.fortune" ~/.bash_profile
