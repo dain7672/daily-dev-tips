@@ -23,6 +23,6 @@ then
   fortune ~/dev-tips.fortune
   echo ""
 else
-  echo -e "echo \"[[오늘의 개발 Tip]]\"\nfortune ~/dev-tips.fortune\necho \"\"" >> ~/.bash_profile
+  echo -e "echo \"\"\necho \"[[오늘의 개발 Tip]]\"\nfortune ~/dev-tips.fortune\necho \"\"" >> ~/.bash_profile
   source ~/.bash_profile
 fi
