@@ -1,5 +1,12 @@
 # Daily Dev Tips: 오늘의 개발 팁
 
+### Install
+```
+git clone
+sh cmd.sh
+```
+
+
 ### Benchmark 벤치마크
 github 관리: https://github.com/dailydotdev/daily  
 케빈 켈리의 68가지 조언: https://news.hada.io/topic?id=2060  
