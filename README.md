@@ -26,3 +26,4 @@ chmod 755 execute.sh
 - 케빈 켈리의 68가지 조언: https://news.hada.io/topic?id=2060  
 - 케빈 켈리의 99가지 추가 조언: https://news.hada.io/topic?id=4191  
 - fortune 명령어: https://johngrib.github.io/wiki/fortune-cmd/
+- kundera: https://kundera.so/guest
