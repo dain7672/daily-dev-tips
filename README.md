@@ -21,6 +21,9 @@ chmod 755 execute.sh
 7. Daily Weather
 8. Daily GeekNews
 
+### How to Contribute
+PR을 남겨주세요.
+
 ### Benchmark 벤치마크
 - github 관리: https://github.com/dailydotdev/daily  
 - 케빈 켈리의 68가지 조언: https://news.hada.io/topic?id=2060  
