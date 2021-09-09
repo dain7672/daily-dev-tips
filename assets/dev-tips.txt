@@ -4,22 +4,21 @@
 4. <reactive> blocking으로 구현된 메소드를 non-blocking으로 처리할 수 있는 방법은 없습니다.
 5. <리팩토링> 많이 고민했는데도 적절한 클래스명이 떠오르지 않나요? 어쩌면 책임을 나눠야 할 시점일 수도 있겠습니다.
 6. <general> 새로운 해야할 일이 생겼나요? 중요한 것이 아니라면 기록해두고, 미루세요. 컨텍스트 스위칭을 최소화하세요. 본인이 하나의 코어를 가진 컴퓨터라고 생각해보세요. 작업을 최대한 직렬화하여 처리하는 것이 가장 효과적일 것입니다.
-
+7. <IntelliJ> out, build 폴더도 지워보고 invalidate cache를 해봐도 본인 컴퓨터에서만 무언가가 안되나요? /.idea 디렉토리도 확인해보세요.
+8. <IntelliJ> ⌃ + g: Add Selection for Next Occurrence
+9. <IntelliJ> ⌥ + ↑: Extend Selection
+10. <IntelliJ> option + ←/→: Move Caret to Previous/Next Word 
+11. <general> 지금 목이 앞으로 너무 나와있지는 않나요? 바른 자세를 만들어봅시다.
+12. <IntelliJ> ⌥ + ⌘ + v/p/f/c/m: Introduce Variable/Parameter/Field/Constant/Method
+13. <Mysql> 5.6 버전부터 서브쿼리가 조인 방식으로 최적화됩니다만, 그래도 서브쿼리는 피하는 것이 좋습니다. 참고: https://jojoldu.tistory.com/520
+14. <IntelliJ> spring boot 실행 속도 단축 팁: "InetAddress.getLocalHost().getHostName() took ... milliseconds to respond." 경고 로그가 Spring Boot 로고 바로 아래 찍혀있다면 어서 /etc/hosts에 macOS 정보를 입력해주세요. 최소 5초 이상의 시간을 단축시킬 수 있습니다. 참고: https://youtrack.jetbrains.com/issue/IDEA-157303
 
 1. 객체지향의 사실과 오해에서 발췌한 내용도 넣어보자.
 2. 정각 또는 30분 마다 네트워크 지연 또는 패킷 유실 현상이 발생하나요? aws측 문제일 확률이 높습니다. #aws
 3. 한 네트워크를 여러장비가 공유합니다. 타입이 낮을 수록 여러대가 네트워크를 공유합니다. 버스팅이 다른 곳에서 발생할 경우 다른 인스턴스 네트워크에 영향을 끼칠 수 있습니다. 이를 noisy neighbor라고 합니다. #aws
-4. 언제나 은총알은 없습니다.
-5. 유용한 intelliJ 단축키: 영역 선택 & ctrl+g
-6. 유용한 intelliJ 단축키: option + 위 방향키
-7. 단축키 창천향로님 강좌 링크
 8. transactional 어노테이션에는 두개가 있습니다. java쪽은 rdb에서의 의미 뿐 아니라 주석에서의 역할도 합노다. 둘다 작동합니다. spring건 더 많은 속성을 가지고 있습니다.
 9. 네이밍할때 반복되는 단어를 prefix로 두는게 보기 좋습니다.
-10. spring 이름의 어원은 개발자의 봄이라고 합니다. #뒷이야기
 11. enum의 필드 값도 변경 가능한 것 아시나요? 하지만 싱글톤이기때문에 주의하셔야 합니다.
-12. intelliJ invalidate cache를 했는데도 빌드가 안되나요? 프로젝트/.idea 폴더의 modules 를 삭제해보세요.
-13. mysql 5.5부터는 inner query가 join으로 최적화 됩니다.
-14. 단축키 opt cmd c/v/f/m
 15. 코드리뷰 요청은 출근 직후나 점심직후에 해보세요. 집중해서 봐줄 확률이 높습니다. (이건 근거를 찾아야 할 듯)
 16. 테스트 junit5 메소드 소개
 17. controllerAdvice exceptionHandler 등록 순서
@@ -28,3 +27,4 @@
 20. ngrinder를 사용할 때 테스트 수 카운트 잘되는지 확인하기
 21. dm으로 업무요청하는 분이 계신가요? support채널로 요청달라고 당당히 얘기하세요.
 22. git rebase -i에 대해 공부해보세요.
+27. 개발 관련 대화는 그림을 그려서 하는 게 최고입니다. 말로 설명하는 경우 상대방은 다른 그림을 생각하고 있을 확률이 굉장히 높습니다 별 것 아닌 거를 말로 어렵게 이해시키다가 진 빼지 말자구요.
