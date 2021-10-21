@@ -19,18 +19,14 @@ git pull
 ./execute.sh
 ```
 
-### Future Plan
-1. Provide installation by Brew
-2. Tips Automatically updated
-3. Contribution by community
-4. Provider Author info
-5. English Support
-6. Subscription by hashTag
-7. Daily Weather
-8. Daily GeekNews
-
-### How to Contribute
-PR을 남겨주세요.
+### Hope to do...
+1. Brew로 설치 제공
+2. Tip 자동 업데이트
+3. 커뮤니티 사용자들의 tip 업데이트 참여
+4. 영어 지원
+5. 카테고리에 따른 개별 구독
+6. Daily Weather 추가
+7. Daily GeekNews 추가
 
 ### Inspired By
 - dailydotdev: https://github.com/dailydotdev/daily  
