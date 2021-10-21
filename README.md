@@ -11,6 +11,13 @@ chmod 755 execute.sh
 터미널 접속 시 오늘의 개발 Tip을 출력한다.
 <div><img src="https://user-images.githubusercontent.com/29906076/131657973-4d6263b9-eedc-46c7-af3b-589e69aa06f0.png" alt="terminal capture" width="700px;"></div>
 
+### Update Tips
+```
+cd ${install directory}
+git pull
+./execute.sh
+```
+
 ### Future Plan
 1. Provide installation by Brew
 2. Tips Automatically updated
