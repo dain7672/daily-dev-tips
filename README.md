@@ -3,6 +3,7 @@
 ### Install
 ```
 git clone
+cd daily-dev-tips
 chmod 755 execute.sh
 ./execute.sh
 ```
