@@ -8,6 +8,9 @@ chmod 755 execute.sh
 ./execute.sh
 ```
 
+### Environment
+macOS만 지원
+
 ### Detail
 터미널 접속 시 오늘의 개발 Tip을 출력한다.
 <div><img src="https://user-images.githubusercontent.com/29906076/131657973-4d6263b9-eedc-46c7-af3b-589e69aa06f0.png" alt="terminal capture" width="700px;"></div>
